@@ -87,11 +87,11 @@ body{
       right: 3px;
       top: 5px;
   }
-  .search{
+   .search{
     position: relative;
     width: 100%;
   }
-  
+
 
   
 .list{
@@ -261,22 +261,26 @@ body{
      bottom: 400px;
      right: 330px;
    
+   
  }
  #next{
     position: absolute;
      top: 0px;
      bottom: 400px;
      right: 230px; 
+     
  }
  #next .carousel-control-next-icon{
     background-image:url('arrow-right2.png') !important;
     height: 30px;
     opacity: 1 !important;
+   
  }
  #prev .carousel-control-prev-icon{
     background-image:url('arrow-left2.png') !important;
     height: 30px;
     opacity: 1 !important;
+    
  }
  
   .white-slider .carousel-control-next-icon{
@@ -340,15 +344,8 @@ color: #737373;
 font-size: 12px;
 }
 
-.boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 75%;
-  
-}
-   .boxes img{
-        margin-bottom: 15px;
+ .boxes img{
+       
         border-radius: 0;
     }
     .footer-top{
@@ -380,20 +377,14 @@ font-size: 12px;
 .footer-top .card-text{
     max-width: 80%;
 }
-
-@media screen and (max-width: 991px) {
-    .top-head {
-      display: none;
-    }
-    
+ /* .boxes .col-sm-4{
+    padding-left: 0 !important;
+    padding-right: 0 !important; 
+} */
+.boxes .row{
+    margin-right: 0 !important;
 }
-@media screen and (max-width: 1024px) {
-  #next{
-      right: 140px;
-     
-  }
-.slider-text{
-    font-size: 13px;
+.footer-div3{
+    max-width: 300px;
 }
 
-}
