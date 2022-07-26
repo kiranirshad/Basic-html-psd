@@ -1,2 +1,2 @@
 # project
-Page link : https://kirannoor.github.io/project/
+Page link : https://kirannoor.github.io/Basic-html-psd/
